@@ -1,0 +1,279 @@
+*{
+   font-family: "Poppins", sans-serif;
+  font-weight: 600;
+   border: 0px;
+   padding: 0px;
+   
+   margin: 0px;
+   background-color:none;
+   scroll-behavior: smooth;
+   text-decoration: none;
+   transition: 2s linear;
+    
+}
+body {
+   padding: 0;
+   margin: 0;
+   font-family: "Poppins", sans-serif;
+   flex-wrap: wrap;
+   line-height: 1.5;
+}
+
+.background-image {
+   background: url('img/food.png.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   width: 100vw;
+   height: 250vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   filter: brightness(30%);
+}
+
+header{
+   position: sticky;
+   background-color:  rgb(47, 46, 46);
+   padding-right: 0;
+   border-bottom:2px solid yellow ;
+   box-shadow: 0 2px 20px lightgoldenrodyellow ;
+}
+
+nav{
+   display: flex;
+  height: 75%;
+ align-content: space-around;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+}
+.left{ 
+ position: relative;
+left: 10px;
+ top: 5px;
+
+}
+ .left #logos{
+   width: 60px;
+   height: 60px;
+mix-blend-mode:normal;
+ }
+
+ ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+   position: relative;
+   top: 10px;
+}
+ ul li  :hover{
+   color: red;
+}
+ul li a{
+   padding: 8px 10px;
+  
+   font-size: 20px;
+   color: lemonchiffon;
+}
+
+#search {
+ position: relative;
+ top: 10px;
+ left: 10px;
+
+ 
+}
+.right{ 
+ position: relative;
+top:10px;
+
+}
+#search{
+   width: 80%;
+   border: none;
+  
+} 
+#slogo{
+position: relative;
+top:10px;
+left:10px;
+}
+.call{
+background-color:#ff0000;
+
+text-transform: uppercase;
+text-decoration:none;
+font-size: 20px;
+position: relative;
+right: 20px;
+border: 2px solid paleturquoise;
+
+}
+
+.call a{
+   text-decoration: none;
+   color: lemonchiffon;
+}
+#text{
+   position: absolute;
+   top: 25%;
+   transform:translate(50%,50%);
+ 
+}
+#text h1{
+   color: palegoldenrod;
+   font-size: 50px;
+   font-weight: 600;
+   text-align: center;
+}
+#text h2{
+   color:lightgoldenrodyellow;
+   font-size: 35px;
+   font-weight: 300;
+   text-align: center;
+}
+#text #booking{
+   border: 2px solid rosybrown;
+   size: 20%;
+   background-color: black;
+  transform: translate(290%,0);
+}
+#text #booking a{
+   text-decoration: none;
+   color: darkkhaki;
+}
+
+
+footer{
+   background-color: rgb(78, 77, 77);
+  
+}
+.container{
+   max-width: 1170px;
+  padding: 10px 0;
+}
+
+.frow{
+   display:flex;
+   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fcolumn{
+ padding: 0 5px;
+
+
+}
+.fcolumn h4,p {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   font-size: 16px;
+   color: aliceblue;
+   margin-bottom: 10px;
+   position: relative;
+}
+
+.fcolumn h4::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   background-color: #ff0000;
+   height: 2px;
+   width: 170px;
+   box-sizing:border-box ;
+}
+.social{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+ }
+ #do > .heading{
+   padding-left: 10px;
+
+ }
+ .fcolumn a {
+   text-decoration:none ;
+   color: lemonchiffon;
+ }
+ .socialt{
+   list-style: none;
+   display: block;
+   
+ }
+ .socialt li a{
+   font-size: 16px;
+ }
+ #popular_dishes > .heading{
+ position: absolute;
+   top: 80%; /* Adjust the vertical position */
+   left: 45%; /* Adjust the horizontal position */
+   transform: translate(-45% ,+65%); /* Center the div */
+   z-index: 10;
+   filter: brightness(100%);
+   display: flex;
+   justify-content: space-evenly;
+  width: 100%;
+  height: 70%;
+  color: khaki;
+}
+ .popular_row {
+   position: absolute;
+   top: 160%; /* Adjust the vertical position */
+   left: 45%; /* Adjust the horizontal position */
+   transform: translate(-45% ,+65%); /* Center the div */
+   z-index: 10;
+   filter: brightness(100%);
+   display: flex;
+   justify-content: space-evenly;
+  width: 100%;
+  height: 70%;
+
+   
+}
+.popular_row1 {
+   position: absolute;
+   top: 90%; /* Adjust the vertical position */
+   left: 45%; /* Adjust the horizontal position */
+   transform: translate(-45% ,+65%); /* Center the div */
+   z-index: 10;
+   filter: brightness(100%);
+   display: flex;
+   justify-content: space-evenly;
+  width: 100%;
+  height: 70%;
+   
+}
+
+
+.popular_item_images {
+  width: 33%;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular_item_images  img {
+   
+  height: 45%;
+  width: 60%;
+  
+ }
+.popular_item_images h3 {
+ color: lemonchiffon;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+ }
+ .popular_item_images p {
+   color: lemonchiffon;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   font-size: small;
+   font-weight: lighter;
+   width: 80%;
+   }
+
