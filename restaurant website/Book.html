@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+ integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="header_bar">
+        <nav id="nav_bar" >
+             <div class="left">
+      
+              <img id="logos" src="img/logos.png" >
+             </div>
+           
+      
+            <div class="ulr">
+              <ul>
+                <li><a href="RESTAURANT WEBSITE.html">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Location">Locations</a></li>
+                <li><a href="Book.html">Book</a></li>
+                <li><a href="#contact">Contact us</a></li>
+              </ul>
+            </div>
+            
+      
+      
+             <div id="search">
+              <form>
+                <input  type="search" placeholder="search for..."> </input>
+                <i id="slogo"class="fa fa-search" aria-hidden="true"></i>
+      
+                
+              </form>
+           
+             </div>
+             <div  class="right">
+             
+              <button class="call"><a href="tel:8945687328">call us</a> </button>
+      
+      
+             </div>
+            </nav>
+        </header>
+    <div class="background-image">
+        <!-- Your content here -->
+       
+    </div>
+      <section id="book_table">
+        <div >
+      <form id="booking_form">
+        <h1 id="form_title">Reservation Form</h1>
+        <div id="Names">
+           <label for="Customer_name" id="name">Name of the customer</label>
+       <input type="text" id="Customer_name" required>
+      </div>
+      <div id="no_of">
+        <h3>Number Of Persons</h3>
+          <div id="Adults">
+       <label for="Persons" id="adult">Adults</label>
+       <input type="number" step="1" id="persons" required>
+      </div>
+      <div id="Childs">
+       <label for="Child" id="childs">Childrens</label>
+       <input type="number" step="1" id="Child" required>
+      </div>
+    </div>
+   
+      <div id="Phone">
+       <label for="phone" id="ph">Phone Number</label>
+       <input type="number" min="10" max="10" id="phone" required>
+      </div>
+      <div id="Date">
+       <label for="date_time" id="date">Date and Time</label>
+       <input type="datetime-local" id="date_time" required>
+      </div>
+      <div id="mail">
+        <label for="Email" id="mail_id">Gmail</label>
+    <input type="text" id="Email" required>
+   </div>
+   <div id="Speciality">
+    <label for="special" id="occasion" >Any Speciality</label>
+   <select id="special">
+   <option>Birthday</option>
+   <option>Party</option>
+   <option>Anniversary</option>
+   <option>Date</option>
+   <option>Other</option>
+   <option>None</option>
+   </select>
+</div> 
+<div id="any_comm">
+  <label for="comment" id="comments">Any Comments?</label>
+<input type="text" id="comment" required>
+</div>
+<div>
+  <input type="submit" id="submitt" >
+</div>
+      </form>
+
+        </div>
+      </section>
+    <footer>
+        <div > <p class="privacy">© 2014 Cooking premium. Ltd. All Rights Reserved</p>  </div>
+    </footer>
+
+</body>
+</html>

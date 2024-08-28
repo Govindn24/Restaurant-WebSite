@@ -1,0 +1,267 @@
+*{
+   font-family: "Poppins", sans-serif;
+  font-weight: 600;
+   border: 0px;
+   padding: 0px;
+   
+   margin: 0px;
+   background-color:none;
+   scroll-behavior: smooth;
+   text-decoration: none;
+   transition: 2s linear;
+    
+}
+body {
+   padding: 0;
+   margin: 0;
+   font-family: "Poppins", sans-serif;
+}
+
+.background-image {
+   background: url('img/reserved.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   width: 100vw;
+   height: 200vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   filter: brightness(30%);
+}
+header{
+    position: sticky;
+    background-color:  rgb(47, 46, 46);
+    padding-right: 0;
+ }
+ 
+ nav{
+    display: flex;
+   height: 75%;
+  align-content: space-around;
+    justify-content: space-around;
+ 
+ }
+ .left{ 
+  position: relative;
+ left: 10px;
+  top: 5px;
+ 
+ }
+  .left #logos{
+    width: 60px;
+    height: 60px;
+ mix-blend-mode:normal;
+  }
+ 
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    position: relative;
+    top: 10px;
+ }
+ ul a{
+    padding: 8px 10px;
+   
+    font-size: 20px;
+    color: lemonchiffon;
+ }
+ #search {
+  position: relative;
+  top: 10px;
+  left: 10px;
+ 
+  
+ }
+ .right{ 
+  position: relative;
+ top:10px;
+ 
+ }
+ 
+ .call{
+ background-color:#ff0000;
+ 
+ text-transform: uppercase;
+ text-decoration:none;
+ font-size: 20px;
+ position: relative;
+ right: 20px;
+ border: 2px solid paleturquoise;
+ 
+ }
+ 
+ .call a{
+    text-decoration: none;
+    color: lemonchiffon;
+ }
+footer{
+    font-size: 400;
+    background-color: brown;
+}
+.privacy{
+    color: black;
+    font-weight: bold;
+}
+#book_table{
+   position: absolute;
+   top:50%;
+   left:50%;
+ 
+  background-color: #efa8a8;
+			width: 40%;
+         height: 80%;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+   text-align: center;
+   -webkit-text-stroke: 50 black;
+   font-weight: bolder;
+} 
+#form_title{
+   position: relative;
+   bottom: 50px;
+   text-align: centre;
+   color: rgb(255, 248, 120);
+  
+}
+
+#booking_form{
+   transform: translate(0,4%);
+}
+#booking_form input
+{
+  
+   margin: 4px 0;
+   box-sizing: border-box;
+   border: 2px solid red;
+     
+}
+#special{
+   margin: 4px 0;
+   box-sizing: border-box;
+   border: 2px solid red;
+     
+}
+
+#booking_form input :focus{
+  
+   border: 2px solid rgb(106, 225, 255);
+     
+}
+#name {
+   color:lemonchiffon;
+   display: block;
+   text-overflow:ellipsis ;
+   text-align: center;
+   white-space:nowrap;
+}
+#adult {
+   color:lemonchiffon;
+   display: block;
+   text-overflow:ellipsis ;
+   text-align: center;
+   white-space:nowrap;
+}
+#childs {
+   color:lemonchiffon;
+   display: block;
+   text-overflow:ellipsis ;
+   text-align: center;
+   white-space:nowrap;
+}
+
+#ph {
+   color:lemonchiffon;
+   display: block;
+   text-overflow:ellipsis ;
+   text-align: center;
+   white-space:nowrap;
+}
+#date {
+   color:lemonchiffon;
+
+   display: block;
+   text-overflow:ellipsis ;
+   text-align: center;
+   white-space:nowrap;
+}
+#mail_id {
+   color:lemonchiffon;
+
+   display: block;
+   text-overflow:ellipsis ;
+   text-align: center;
+   white-space:nowrap;
+}
+#occasion{
+   color:lemonchiffon;
+
+   display: block;
+   text-overflow:ellipsis ;
+   text-align: center;
+   white-space:nowrap;
+}
+#comments{
+   color:lemonchiffon;
+
+   display: block;
+   text-overflow:ellipsis ;
+   text-align: center;
+   white-space:nowrap;
+}
+#persons, #Child{
+  width:10%;
+}
+#phone{
+   width:30%;
+}
+#Names{
+   position: relative;
+   bottom:20px;
+}
+#Adults{
+   position: relative;
+   right: 200px;
+  
+}
+#Childs{
+   position: relative;
+   left: 200px;
+   bottom: 50px;
+}
+#Phone{
+   position: relative;
+   bottom: 50px;
+}
+#Date{
+   position: relative;
+   bottom: 40px;
+}
+#mail{
+   position: relative;
+   bottom: 30px;
+}
+#Speciality{
+   position: relative;
+   bottom: 20px;
+}
+#any_comm{
+   position: relative;
+   bottom: 20px;
+  
+   left:8px;
+}
+#submitt{
+   background-color: antiquewhite;
+   cursor: pointer;
+   border: none;
+   color: rgb(0, 0, 0);
+   font-size: 1em;
+   padding: 16px 32px;
+   text-decoration: none;
+}
+
